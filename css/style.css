@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px; /* Define um novo tamanho máximo */
+    padding: 20px;     /* Ajusta o espaçamento interno */
+    background-color: #f8f9fa; /* Muda a cor de fundo */
+    border: 2px solid #007bff; /* Adiciona uma borda */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+.custom-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.delete-icon {
+    color: red; /* Define a cor do ícone como vermelha */
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+body {
+    background-color: #d9d9d9 !important;
+}
